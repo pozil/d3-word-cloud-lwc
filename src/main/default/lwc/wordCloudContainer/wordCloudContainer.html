@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Word Cloud" icon-name="custom:custom19">
+        <div class="slds-var-m-around_medium">
+            <template if:true={words}>
+                <c-word-cloud
+                    width={width}
+                    height={height}
+                    words={words}
+                ></c-word-cloud>
+            </template>
+            <template if:true={error}>
+                <div>ERROR: failed to load words.</div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
