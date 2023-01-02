@@ -20,6 +20,6 @@
         "eslint": "^7.6.0",
         "eslint-config-prettier": "^6.11.0",
         "prettier": "^2.0.5",
-        "prettier-plugin-apex": "^1.6.0"
+        "prettier-plugin-apex": "^1.12.0"
     }
 }
